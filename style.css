@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+#container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    border-radius: 10px;
+}
+table,th,td{
+    border-style: none;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+table{
+    border-spacing: 4px;
+}
+
+input[type="button"]
+    {
+    align-content: center;
+    background-color:rgb(152, 226, 152);
+    color: rgb(31, 31, 31);
+    border: none;
+    width: 45px;
+    height: 45px;
+    font-family: Helvetica;
+    font-weight:500;
+    font-size: 1rem;
+    transition: 0.15s;
+    }
+.button:hover {background-color: rgb(86, 163, 79);} 
+
+
+.display {
+    color: rgb(0, 0, 0);
+    height: 45px;
+    text-align: right;
+    font-size: 2rem;
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    padding-top: 4px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+}
